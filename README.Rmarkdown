@@ -1,10 +1,10 @@
-#+TITLE: Verde fish model
+# An extention of the Verde fish model [here](https://github.com/jdtonkin/fishmodel-verde)
 
-Code and data associated with Rogosch et al. manuscript examining fish communities in the Verde River, AZ, USA. The model is a community-wide stochastic matrix population model that links population dynamics with river flow regimes.
+Code and data associated with [Rogosch et al. 2019](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.2681) manuscript examining fish communities in the Verde River, AZ, USA. The model is a community-wide stochastic matrix population model that links population dynamics with river flow regimes.
 
 * Code
-- ~fish-model-all-spp.R~: The core model used to generate results in the manuscript: community-wide stage-structured stochastic matrix population model (7 spp.).  
-- ~make-multiflow.R~: This is code to make a list of all possible future flow regimes. Pulls hydrograph data from USGS. This will then get read into the main model (~fish-model-all-spp.R~) as a list.  
+- `fish-model-all-spp.R` The core model used to generate results in the manuscript: community-wide stage-structured stochastic matrix population model (7 spp.).  
+- `make-multiflow.R` This is code to make a list of all possible future flow regimes. Pulls hydrograph data from USGS. This will then get read into the main model (~fish-model-all-spp.R~) as a list.  
 - ~functions.R~: Some functions used in running the various scripts.   
 - ~fish-model-flowsims.R~: Code used for simulations of spp combinations. This is to be run in combination with shell script (not included in repo) on HPC. This is not part of the Rogosch et al. manuscript.  
 
