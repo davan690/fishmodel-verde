@@ -18,7 +18,7 @@ library(popbio)
 #rm(list = ls()) # clearing the workspace 
 
 ## Bringing in flow data
-all.scenarios.list <- readRDS('data/all_scenarios_list.rds')
+all.scenarios.list <- readRDS('./data/all_scenarios_list.rds')
 
 ## When using natural flow data, just pull it out from the list here
 flowdata <- all.scenarios.list$natural.flow

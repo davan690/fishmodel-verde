@@ -6,24 +6,24 @@
 ## Required libraries
 
 ## Better to install individually
-install.packages("plyr", lib="Rpackages", repos = "http://cran.case.edu")
-install.packages("tidyverse", lib="Rpackages", repos = "http://cran.case.edu")
-install.packages("popbio", lib="Rpackages", repos = "http://cran.case.edu")
-install.packages("iterators", lib="Rpackages", repos = "http://cran.case.edu")
-install.packages("foreach", lib="Rpackages", repos = "http://cran.case.edu")
-install.packages("doMC", lib="Rpackages", repos = "http://cran.case.edu")
-install.packages("doParallel", lib="Rpackages", repos = "http://cran.case.edu")
-install.packages("doSNOW", lib="Rpackages", repos = "http://cran.case.edu")
-
-## Required libraries
-library(plyr, lib.loc="Rpackages")
-library(tidyverse, lib.loc="Rpackages")
-library(popbio, lib.loc="Rpackages")
-library(iterators, lib.loc="Rpackages")
-library(foreach, lib.loc="Rpackages")
-library(doMC, lib.loc="Rpackages")
-library(doParallel, lib.loc="Rpackages")
-library(doSNOW, lib.loc="Rpackages")
+# install.packages("plyr", lib="Rpackages", repos = "http://cran.case.edu")
+# install.packages("tidyverse", lib="Rpackages", repos = "http://cran.case.edu")
+# install.packages("popbio", lib="Rpackages", repos = "http://cran.case.edu")
+# install.packages("iterators", lib="Rpackages", repos = "http://cran.case.edu")
+# install.packages("foreach", lib="Rpackages", repos = "http://cran.case.edu")
+# install.packages("doMC", lib="Rpackages", repos = "http://cran.case.edu")
+# install.packages("doParallel", lib="Rpackages", repos = "http://cran.case.edu")
+# install.packages("doSNOW", lib="Rpackages", repos = "http://cran.case.edu")
+# 
+# ## Required libraries
+# library(plyr, lib.loc="Rpackages")
+# library(tidyverse, lib.loc="Rpackages")
+# library(popbio, lib.loc="Rpackages")
+# library(iterators, lib.loc="Rpackages")
+# library(foreach, lib.loc="Rpackages")
+# library(doMC, lib.loc="Rpackages")
+# library(doParallel, lib.loc="Rpackages")
+# library(doSNOW, lib.loc="Rpackages")
 
 ## * SETUP ---------------------------------------------------------------------
 
