@@ -34,9 +34,11 @@ Our goals were to:
 
 (2) evaluate demographic responses in population and community structure to changing flow regimes. Each fish species was represented by a stage-structured matrix, and species were coupled together into a multispecies framework through density-dependent relationships in reproduction. 
 
-Then, community dynamics were simulated through time using annual flow events classified from gaged streamflow data. We parameterized the model with vital rates and flow–response relationships for a community of native and nonnative fishes using literature-derived values. We applied the simulation model to the Verde River (Arizona, USA), a major tributary within the Colorado River Basin, for the past half century (1964–2017). Model validation revealed a match between model projections and relative abundance trends observed in a long-term fish monitoring dataset (1994–2008). 
+Then, community dynamics were simulated through time using annual flow events classified from gaged streamflow data. We parameterized the model with vital rates and flow–response relationships for a community of native and non-native fishes using literature-derived values. We applied the simulation model to the Verde River (Arizona, USA), a major tributary within the Colorado River Basin, for the past half century (1964–2017). Model validation revealed a match between model projections and relative abundance trends observed in a long-term fish monitoring dataset (1994–2008). 
 
-At the beginning of the validation period (1994), model and survey observations showed that native species comprised approximately 80% of total abundance. Model projections beyond the survey data (2008–2017) predicted a shift from a native dominant to a nonnative dominant assemblage, coinciding with increasing drought frequency. Trade-offs between native and nonnative species dominance emerged from differences in mortality in response to the changing sequence of major flow events including spring floods, summer high flows, and droughts. In conclusion, the demographic approach presented here provides a flexible modeling framework that is readily applied to other stream systems and species by adjusting or transferring, when appropriate, species vital rates and flow-event thresholds.
+**Later on:** *We modelled a fish community by examining species‐specific vital rates that varied as a function of flow regimes describing patterns of drought and flooding. Density‐dependent relationships coupled populations together into a multispecies framework, and community dynamics were simulated through a sequence of flow events defined by the streamflow record. We validated the model by comparing model projections to empirical data from a long‐term fish monitoring program. We then examined how contemporary climate‐driven change in the sequence of drought and flood events affects the composition of native and non-native species in the community.*
+
+At the beginning of the validation period (1994), model and survey observations showed that native species comprised approximately 80% of total abundance. Model projections beyond the survey data (2008–2017) predicted a shift from a native dominant to a non-native dominant assemblage, coinciding with increasing drought frequency. Trade-offs between native and non-S1native species dominance emerged from differences in mortality in response to the changing sequence of major flow events including spring floods, summer high flows, and droughts. In conclusion, the demographic approach presented here provides a flexible modeling framework that is readily applied to other stream systems and species by adjusting or transferring, when appropriate, species vital rates and flow-event thresholds.
 
 ---
 
@@ -75,6 +77,10 @@ Interesting figures for sure! see below...
 ![Idea of comparing non-native and native species competition](./img/fig1.png)
 
 The power of these models I think is the ability to simply bound population dynamics based on know life history traits as here:
+
+
+
+$${}$$
 
 ![](./img/fig2.png)
 
